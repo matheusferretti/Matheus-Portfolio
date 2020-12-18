@@ -233,7 +233,8 @@ nav {display: none};
         grid-template-areas: 
             "title img"
             "subtitle img"
-            "text img"
+            "text img";
+        grid-column-gap: 2em;
     }
 
     .section__title--about {
@@ -241,8 +242,7 @@ nav {display: none};
     }
 
     .about-me__img {
-        grid-row: 1 / -1;
-        grid-column: 2;
+        grid-area: img;
     }
 }
 
