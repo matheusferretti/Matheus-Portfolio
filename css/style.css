@@ -279,5 +279,10 @@ nav {display: none};
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+}
+
+
+.portfolio__item {
+    background: var(--clr-accent);
 }
