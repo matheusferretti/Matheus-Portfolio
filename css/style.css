@@ -117,22 +117,24 @@ nav {display: none};
     }
 
     .intro__img {
-        grid-area: auto;
+        grid-area: img;
         min-width: 250px;
     }
 
     .section__subtitle--intro {
         align-self: start;
         grid-column: -1 / 1;
+        grid-row: 2;
+        text-align: right;
     }
 }
 
 /* Pictures */
 
-.first-pic {
+/* .first-pic {
     height: 600px;
     width: 400px;
-}
+} */
 
 .second-pic {
     height: 600px;
