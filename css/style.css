@@ -169,6 +169,13 @@ h3 {font-size: var(--fs-h3)}
 
 .nav__link {
     color: inherit;
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-h2);
+    text-decoration: none;
+}
+
+nav__link:hover {
+    color: var(--clr-accent);
 }
 
 /* Intro Section */
