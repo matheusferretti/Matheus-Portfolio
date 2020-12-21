@@ -132,13 +132,13 @@ h3 {font-size: var(--fs-h3)}
 
 /* Header */
 
-.header {
+header {
     display: flex;
     justify-content: space-between;
     padding: 1em;
 }
 
-.logo {
+.logo1 {
     max-width: 100px;
 }
 
@@ -174,8 +174,30 @@ h3 {font-size: var(--fs-h3)}
     text-decoration: none;
 }
 
-nav__link:hover {
+.nav__link:hover {
     color: var(--clr-accent);
+}
+
+.hamburger {
+    display: block;
+    position: relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    background: var(--clr-dark);
+    width: 2em;
+    height: 3px;
+    border-radius: 1em;
+}
+
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 
 /* Intro Section */
