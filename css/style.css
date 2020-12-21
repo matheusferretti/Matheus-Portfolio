@@ -308,3 +308,5 @@ nav {display: none};
     text-align: center;
     padding: 2.5em 0;
 }
+
+.footer a { color: inherit }
