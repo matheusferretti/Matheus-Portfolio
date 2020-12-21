@@ -307,6 +307,7 @@ nav {display: none};
     color: var(--clr-accent);
     text-align: center;
     padding: 2.5em 0;
+    font-size: var(--fa-h3);
 }
 
 .footer a { 
@@ -315,7 +316,6 @@ nav {display: none};
 }
 
 .footer__link {
-    font-size: var(--fa-h3);
     font-weight: var(--fw-bold);
 }
 
@@ -326,4 +326,20 @@ nav {display: none};
 
 .footer__link:hover {
     text-decoration: underline;
+}
+
+.social-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+    padding: 0;
+}
+
+.social-list__item {
+    margin: 0 .5em;
+}
+
+.social-list__link {
+    padding: .5em;
 }
