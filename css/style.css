@@ -138,7 +138,7 @@ header {
     padding: 1em;
 }
 
-.logo1 {
+.logo2 {
     max-width: 100px;
 }
 
@@ -179,9 +179,10 @@ header {
 }
 
 .nav-toggle {
-    padding: .25em;
+    padding: .5em;
     background: transparent;
     border: 0;
+    cursor: pointer;
 }
 
 .hamburger {
