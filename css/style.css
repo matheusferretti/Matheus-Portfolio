@@ -20,7 +20,11 @@
     --clr-dark: #303030;
     /* --clr-accent: #FD0006; */
     /* --clr-accent: #A226E7; */
-    --clr-accent: #16e0bd;
+    /* --clr-accent: #16e0bd; */
+    /* --clr-accent: linear-gradient(to right top, #3c69ae, #0081bd, #0097bc, #00a9ae, #21b998); */
+    --clr-accent: linear-gradient(to right, #bd60f9, #4c91ff, #00aeff, #00c0f7, #12ccd5);
+    
+    
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -411,7 +415,7 @@ header {
 
 .footer{
     background: #111;
-    color: var(--clr-accent);
+    color: var(--clr-light);
     text-align: center;
     padding: 2.5em 0;
     font-size: var(--fa-h3);
